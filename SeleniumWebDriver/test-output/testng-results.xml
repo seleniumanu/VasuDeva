@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="13" passed="13">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Vasu" duration-ms="20078" started-at="2020-01-21T02:42:03Z" finished-at="2020-01-21T02:42:23Z">
+    <groups>
+    </groups>
+    <test name="Sample" duration-ms="20078" started-at="2020-01-21T02:42:03Z" finished-at="2020-01-21T02:42:23Z">
+      <class name="com.selenium.testng.FirstTestNGTest">
+        <test-method status="PASS" signature="first()[pri:0, instance:com.selenium.testng.FirstTestNGTest@4c75cab9]" name="first" duration-ms="1" started-at="2020-01-21T08:12:23Z" finished-at="2020-01-21T08:12:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- first -->
+      </class> <!-- com.selenium.testng.FirstTestNGTest -->
+      <class name="com.selenium.testng.AdminLoginTest">
+        <test-method status="PASS" signature="appLaunch()[pri:1, instance:com.selenium.testng.AdminLoginTest@de0a01f]" name="appLaunch" duration-ms="13056" started-at="2020-01-21T08:12:03Z" finished-at="2020-01-21T08:12:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- appLaunch -->
+        <test-method status="PASS" signature="appLogin()[pri:2, instance:com.selenium.testng.AdminLoginTest@de0a01f]" name="appLogin" duration-ms="2742" started-at="2020-01-21T08:12:16Z" finished-at="2020-01-21T08:12:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- appLogin -->
+        <test-method status="PASS" signature="appLogout()[pri:3, instance:com.selenium.testng.AdminLoginTest@de0a01f]" name="appLogout" duration-ms="4107" started-at="2020-01-21T08:12:19Z" finished-at="2020-01-21T08:12:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- appLogout -->
+        <test-method status="PASS" signature="appClose()[pri:4, instance:com.selenium.testng.AdminLoginTest@de0a01f]" name="appClose" duration-ms="129" started-at="2020-01-21T08:12:23Z" finished-at="2020-01-21T08:12:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- appClose -->
+      </class> <!-- com.selenium.testng.AdminLoginTest -->
+      <class name="com.selenium.testng.MultipleTestNg">
+        <test-method status="PASS" signature="appLaunch()[pri:0, instance:com.selenium.testng.MultipleTestNg@1ef7fe8e]" name="appLaunch" duration-ms="1" started-at="2020-01-21T08:12:23Z" finished-at="2020-01-21T08:12:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- appLaunch -->
+        <test-method status="PASS" signature="appLogin()[pri:0, instance:com.selenium.testng.MultipleTestNg@1ef7fe8e]" name="appLogin" duration-ms="1" started-at="2020-01-21T08:12:23Z" finished-at="2020-01-21T08:12:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- appLogin -->
+        <test-method status="PASS" signature="appLogout()[pri:0, instance:com.selenium.testng.MultipleTestNg@1ef7fe8e]" name="appLogout" duration-ms="1" started-at="2020-01-21T08:12:23Z" finished-at="2020-01-21T08:12:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- appLogout -->
+        <test-method status="PASS" signature="appClose()[pri:3, instance:com.selenium.testng.MultipleTestNg@1ef7fe8e]" name="appClose" duration-ms="0" started-at="2020-01-21T08:12:23Z" finished-at="2020-01-21T08:12:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- appClose -->
+      </class> <!-- com.selenium.testng.MultipleTestNg -->
+      <class name="com.selenium.testng.AnnotationsTest2">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:com.selenium.testng.AnnotationsTest2@ba4d54]" name="beforeSuite" is-config="true" duration-ms="27" started-at="2020-01-21T08:12:03Z" finished-at="2020-01-21T08:12:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.selenium.testng.AnnotationsTest2@ba4d54]" name="beforeTest" is-config="true" duration-ms="1" started-at="2020-01-21T08:12:03Z" finished-at="2020-01-21T08:12:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="method1()[pri:0, instance:com.selenium.testng.AnnotationsTest2@ba4d54]" name="method1" duration-ms="0" started-at="2020-01-21T08:12:03Z" finished-at="2020-01-21T08:12:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- method1 -->
+        <test-method status="PASS" signature="method2()[pri:0, instance:com.selenium.testng.AnnotationsTest2@ba4d54]" name="method2" duration-ms="0" started-at="2020-01-21T08:12:03Z" finished-at="2020-01-21T08:12:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- method2 -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.selenium.testng.AnnotationsTest2@ba4d54]" name="afterTest" is-config="true" duration-ms="0" started-at="2020-01-21T08:12:23Z" finished-at="2020-01-21T08:12:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:com.selenium.testng.AnnotationsTest2@ba4d54]" name="afterSuite" is-config="true" duration-ms="0" started-at="2020-01-21T08:12:24Z" finished-at="2020-01-21T08:12:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- com.selenium.testng.AnnotationsTest2 -->
+      <class name="com.selenium.testng.AnnotationsTest1">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.selenium.testng.AnnotationsTest1@12bc6874]" name="beforeClass" is-config="true" duration-ms="0" started-at="2020-01-21T08:12:03Z" finished-at="2020-01-21T08:12:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="method1()[pri:0, instance:com.selenium.testng.AnnotationsTest1@12bc6874]" name="method1" duration-ms="1" started-at="2020-01-21T08:12:03Z" finished-at="2020-01-21T08:12:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- method1 -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.selenium.testng.AnnotationsTest1@12bc6874]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2020-01-21T08:12:03Z" finished-at="2020-01-21T08:12:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.selenium.testng.AnnotationsTest1@12bc6874]" name="afterMethod" is-config="true" duration-ms="1" started-at="2020-01-21T08:12:03Z" finished-at="2020-01-21T08:12:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="method2()[pri:0, instance:com.selenium.testng.AnnotationsTest1@12bc6874]" name="method2" duration-ms="0" started-at="2020-01-21T08:12:03Z" finished-at="2020-01-21T08:12:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- method2 -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.selenium.testng.AnnotationsTest1@12bc6874]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2020-01-21T08:12:03Z" finished-at="2020-01-21T08:12:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.selenium.testng.AnnotationsTest1@12bc6874]" name="afterMethod" is-config="true" duration-ms="0" started-at="2020-01-21T08:12:03Z" finished-at="2020-01-21T08:12:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.selenium.testng.AnnotationsTest1@12bc6874]" name="afterClass" is-config="true" duration-ms="0" started-at="2020-01-21T08:12:03Z" finished-at="2020-01-21T08:12:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- com.selenium.testng.AnnotationsTest1 -->
+    </test> <!-- Sample -->
+  </suite> <!-- Vasu -->
+</testng-results>

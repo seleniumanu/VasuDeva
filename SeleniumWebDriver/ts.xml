@@ -1,0 +1,11 @@
+<suite name="Vasu" >
+  <test name="Sample" >
+    <classes>
+       <class name="com.selenium.testng.AnnotationsTest1" />
+       <class name="com.selenium.testng.AnnotationsTest2" />
+       <class name="com.selenium.testng.AdminLoginTest" />
+       <class name="com.selenium.testng.FirstTestNGTest" />
+        <class name="com.selenium.testng.MultipleTestNg" />
+    </classes>
+  </test>
+</suite>
