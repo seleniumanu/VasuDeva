@@ -14,6 +14,8 @@ public class DataDrivenTesting {
 
 	public static void main(String[] args) throws Exception 
 	{
+		
+		//Creating object Reference
 		PrimusBank app=new PrimusBank();
 		
 		app.appLaunch("Http://PrimusBank.qedgetech.com");
